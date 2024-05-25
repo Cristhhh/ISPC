@@ -10,8 +10,8 @@ Datos de los Integrantes del Grupo
    - Correo Electrónico: Melihatchi@gmail.com
    - GitHub: https://github.com/MHatchikian
 
-2. Nombre: Miguel Rodriguez
-   - Apellido: Saquilan
+2. Nombre: Miguel 
+   - Apellido:Rodriguez Saquilan
    - DNI: 18889456
    - Correo Electrónico: miguelr.s77@gmail.com
    - GitHub: https://github.com/miguelrs77
