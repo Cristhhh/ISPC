@@ -12,7 +12,7 @@ Datos de los Integrantes del Grupo
 
 2. Nombre: Miguel Rodriguez
    - Apellido: Saquilan
-   - DNI: ***
+   - DNI: 18889456
    - Correo Electrónico: miguelr.s77@gmail.com
    - GitHub: https://github.com/miguelrs77
 
