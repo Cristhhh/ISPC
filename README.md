@@ -1,0 +1,1 @@
+pseudocodigo de la tienda
