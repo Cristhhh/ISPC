@@ -20,11 +20,11 @@ Datos de los Integrantes del Grupo
    - Apellido: Sosa
    - DNI: 33314167
    - Correo Electrónico: sosacristhiansebas@gmail.com
-   - GitHub: https://github.com/users/Cristhhh/projects/1
+   - GitHub: https://github.com/users/Cristhhh
 
 Descripción de la Propuesta de Proyecto Elegida
 
-Nuestro proyecto consiste en desarrollar una plataforma de comercio electrónico (eCommerce) que permita a los usuarios comprar productos de manera eficiente y segura. El objetivo principal es crear una aplicación web intuitiva y fácil de usar que ofrezca una experiencia de compra agradable tanto para compradores como para vendedores.
+Nuestro proyecto consiste en desarrollar una plataforma de comercio electrónico (eCommerce) que permita a los usuarios comprar productos de manera eficiente y segura. El objetivo principal es crear una aplicación web intuitiva y fácil de usar que ofrezca una experiencia de compra agradable tanto para compradores como para el vendedor.
 
 Características principales del proyecto:
 
