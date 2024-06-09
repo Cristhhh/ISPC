@@ -43,3 +43,5 @@ Detalle breve de lo que contienen los archivos .py:
 - index.py es el archivo fuente principal donde se encuentra el menú de opciones de la aplicación. Permite agregar productos, vender productos, y mostrar el inventario a través de un menú de opciones.
 
 - tienda.py conexión con la base de datos que permite agregar, vender, mostrar el inventario actual de los productos y cerrar la conexión a la base de datos.
+
+- config.py archivo para realizar configuraciones donde se ingresan las credenciales que nos vinculan con las Base de Datos.
