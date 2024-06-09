@@ -24,7 +24,7 @@ Datos de los Integrantes del Grupo
 
 Descripción de la Propuesta de Proyecto Elegida
 
-Nuestro proyecto consiste en desarrollar una plataforma de comercio electrónico (eCommerce) que permita a los usuarios comprar productos de manera eficiente y segura. El objetivo principal es crear una aplicación web intuitiva y fácil de usar que ofrezca una experiencia de compra agradable tanto para compradores como para el vendedor.
+Nuestro proyecto consiste en desarrollar una plataforma de comercio electrónico (eCommerce) que permita a los usuarios comprar productos de manera eficiente y segura. El objetivo principal es crear una aplicación intuitiva y fácil de usar que ofrezca una experiencia de compra agradable tanto para compradores como para el vendedor.
 
 Características principales del proyecto:
 
