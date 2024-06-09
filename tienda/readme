@@ -1,0 +1,18 @@
+Proyecto de una app de tienda virtual de lectrodomesticos Grupo Booleano
+
+1_  crear la base de datos  en workbench 'CREATE DATABASE tienda_bd' y despues 'USE tienda_bd'
+2_  crear las tablas '
+
+CREATE TABLE productos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    precio DECIMAL(10, 2) NOT NULL,
+    cantidad INT NOT NULL,
+    fecha_ingreso TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+'
+3_ en visual levantar el proyecto y en la terminal insertar el conector 
+    'pip install mysql-connector-python'
+
+4_ en config.py cambiar las credenciales que tienen en su Mysql 
+5- ejecutar index.py   
