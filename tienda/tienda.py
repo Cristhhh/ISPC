@@ -1,5 +1,5 @@
 import mysql.connector
-from config import DB_CONFIG
+from tienda.config import DB_CONFIG
 
 class Tienda:
     def __init__(self):
