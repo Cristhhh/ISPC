@@ -37,3 +37,9 @@ Características principales del proyecto:
 
 
 Nuestro objetivo es que esta plataforma no solo sea funcional y eficiente, sino también escalable, permitiendo futuras expansiones y mejoras en la funcionalidad y la experiencia del usuario.
+
+Detalle breve de lo que contienen los archivos .py:
+
+- index.py es el archivo fuente principal donde se encuentra el menú de opciones de la aplicación. Permite agregar productos, vender productos, y mostrar el inventario a través de un menú de opciones.
+
+- tienda.py conexión con la base de datos que permite agregar, vender, mostrar el inventario actual de los productos y cerrar la conexión a la base de datos.
