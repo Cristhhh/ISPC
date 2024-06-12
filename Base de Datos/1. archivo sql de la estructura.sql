@@ -1,10 +1,10 @@
 -- Crear la base de datos si no existe
-CREATE DATABASE IF NOT EXISTS tienda_bd;
+CREATE DATABASE IF NOT EXISTS tienda_db;
 
 -- DROP DATABASE nombre_de_la_base_de_datos;
 
--- Usar la base de datos tienda_bd
-USE tienda_bd;
+-- Usar la base de datos tienda_db
+USE tienda_db;
 
 -- Crear la tabla CLIENTES
 CREATE TABLE IF NOT EXISTS CLIENTES (
@@ -24,13 +24,14 @@ CREATE TABLE IF NOT EXISTS MEDIOS_DE_PAGOS (
   DESCRIPCION_MDP VARCHAR(45) DEFAULT NULL,-- Descripción del medio de pago, opcional
   PRIMARY KEY (idMDP)                      -- Llave primaria, identificador único de cada medio de pago
 );
-
+		
 -- Crear la tabla PEDIDOS
 CREATE TABLE IF NOT EXISTS PEDIDOS (
   idPEDIDOS INT NOT NULL AUTO_INCREMENT,    -- ID único para cada pedido
   MONTO_PEDIDO DECIMAL(10,2) NOT NULL,     -- Monto del pedido, obligatorio
   idCLIENTES INT NOT NULL,                 -- ID del cliente que realiza el pedido
   idMDP INT NOT NULL,                      -- ID del medio de pago utilizado
+  FECHA_PEDIDO DATETIME,                   -- Fecha del pedido
   PRIMARY KEY (idPEDIDOS),                 -- PK, identificador único de cada pedido
   CONSTRAINT fk_PEDIDOS_CLIENTES
     FOREIGN KEY (idCLIENTES)               -- FK que referencia a CLIENTES
