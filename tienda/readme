@@ -1,6 +1,6 @@
 Proyecto de una app de tienda virtual de lectrodomesticos Grupo Booleano
 
-1_  crear la base de datos  en workbench 'CREATE DATABASE tienda_bd' y despues 'USE tienda_bd'
+1_  crear la base de datos  en workbench 'CREATE DATABASE tienda_db' y despues 'USE tienda_db'
 2_  crear las tablas '
 
 CREATE TABLE productos (
