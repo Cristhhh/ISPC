@@ -9,7 +9,7 @@ SELECT idCLIENTES, NOMBRE_CLI, APELLIDO FROM CLIENTES; -- Selecciona solo alguna
 
 -- 3. Una sola tabla con WHERE:
 
-SELECT * FROM PRODUCTOS WHERE STOCK_PROD > 50; -- Selecciona todos los productos con un stock mayor a 50
+SELECT * FROM PRODUCTOS WHERE STOCK_PROD > 30; -- Selecciona todos los productos con un stock mayor a 30
 
 -- 4. Una sola tabla con WHERE utilizando BETWEEN:
 
@@ -17,7 +17,7 @@ SELECT * FROM PEDIDOS WHERE MONTO_PEDIDO BETWEEN 100 AND 500; -- Selecciona todo
 
 -- 5. Una sola tabla con WHERE utilizando LIMIT:
 
-SELECT * FROM CLIENTES LIMIT 2; -- Selecciona los primeros 5 clientes
+SELECT * FROM CLIENTES LIMIT 2; -- Selecciona los primeros 2 clientes
 
 -- 6. Más de 1 tabla con INNER JOIN:
 
