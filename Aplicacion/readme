@@ -1,4 +1,8 @@
 Proyecto de una app de tienda virtual de lectrodomesticos Grupo Booleano
+Tienda posee: 
+index.py: En el cual se muestra un menu con las operaciones para realizar un CRUD
+tienda.py: En la cual tenemos la clase tienda, el contructor __init__ con los metodos del CRUD
+config.py: DB_CONFIG es un diccionario que contiene los detalles de conexión a la base de datos MySQL, incluyendo el host, el usuario etc y la instancia cursor
 
 1_  crear la base de datos  en workbench 'CREATE DATABASE tienda_db' y despues 'USE tienda_db'
 2_  crear las tablas '
