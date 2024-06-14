@@ -45,3 +45,27 @@ Detalle breve de lo que contienen los archivos .py:
 - tienda.py conexión con la base de datos que permite agregar, vender, mostrar el inventario actual de los productos y cerrar la conexión a la base de datos.
 
 - config.py archivo para realizar configuraciones donde se ingresan las credenciales que nos vinculan con las Base de Datos.
+
+Estructura del Repositorio
+
+Explicación de lo que contiene cada carpeta y archivo en el repositorio.
+
+Carpetas
+-README/:Proporciona una introducción al proyecto y la presentación del equipo.
+
+-Aplicación/:Encontramos los archivos Python que conforman la funcionalidad principal de nuestra aplicación..
+  config.py/: Este archivo contiene la configuración necesaria para conectar la aplicación a una base de datos MySQL
+  index.py/: Este archivo contiene el punto de entrada principal para la aplicación. Aquí se define la función main, la cual inicia una instancia de la clase Tienda y proporciona un menú interactivo para que el usuario pueda realizar diversas operaciones relacionadas con la gestión de productos y clientes.
+  tienda.py/: Este archivo contiene la clase Tienda, la cual implementa la lógica principal de la aplicación. La clase proporciona métodos para gestionar productos y clientes en una base de datos MySQL, incluyendo operaciones CRUD (Crear, Leer, Actualizar, Eliminar)
+  readme/: Este archivo contiene la configuración de la base de datos, incluyendo las credenciales necesarias para conectar a MySQL Workbench y asegurar que la base de datos tienda_db esté disponible. 
+
+-Base de datos:Contiene los scripts DDL y DML. Aquí definimos la estructura de la base de datos..
+  archivo sql de la estructura.sql/:Archivo principal donde definimos la creación de la base de datos, su uso y creación de tablas con sus PK y FK .
+  archivo sql con datos.sql/: En este archivo se generaron los insert necesarios para poblar nuestra base de datos..
+  archivo sql con consultas sobre los datos.sql/: en este archivos encontramos todas las consultas DML realizadas a la BBDD.
+
+-Wiki/: En esta instancia se discutieron temas como la privacidad del usuario, protección de datos y otras consideraciones éticas importantes para nuestro proyecto.
+
+Breve Descripción de la Aplicación
+La aplicación es una tienda virtual de electrodomésticos que permite gestionar productos y clientes mediante una base de datos MySQL. Los usuarios pueden realizar diversas operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para administrar tanto el inventario de productos como la información de los clientes.
+
