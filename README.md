@@ -65,9 +65,9 @@ Carpetas
 
 -Base de datos:Contiene los scripts DDL y DML. Aquí definimos la estructura de la base de datos..
   - archivo sql de la estructura.sql/:Archivo principal donde definimos la creación de la base de datos, su uso y creación de tablas con sus PK y FK .
-  - 
+    
   - archivo sql con datos.sql/: En este archivo se generaron los insert necesarios para poblar nuestra base de datos..
-  - 
+    
   - archivo sql con consultas sobre los datos.sql/: en este archivos encontramos todas las consultas DML realizadas a la BBDD.
 
 -Wiki/: En esta instancia se discutieron temas como la privacidad del usuario, protección de datos y otras consideraciones éticas importantes para nuestro proyecto.
